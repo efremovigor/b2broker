@@ -6,7 +6,7 @@ cd b2broker
 
 composer update
 
-Засетить свои конфиги подключения к Mysql
+Засетить свои конфиги подключения к Mysql в .env
 
 php artisan migrate:fresh
 
