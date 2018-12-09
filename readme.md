@@ -15,7 +15,17 @@ php artisan serve
 
 ## Особенности взаимодействия с b2broker_module_tasks
 
-view.php
+config/view.php
+
+```php
+    'paths' => [
+        ...
+        __DIR__ . '/../vendor/b2broker_module_tasks/src/Tasks/View',
+        ...
+```
+
+config/app.php
+
 ```php
 'providers' => [
             ...
