@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/efremovigor/b2broker_module_tasks.git",
-                "reference": "1051bdf3d1bc647409528a530566cf5f9d686649"
+                "reference": "e69dc12c728f26d2e80bc29790ed8e0970f34a74"
             },
             "require": {
                 "fideloper/proxy": "^4.0",
@@ -27,7 +27,7 @@
                     "": "src/"
                 }
             },
-            "time": "2018-12-08T17:18:23+00:00"
+            "time": "2018-12-09T13:04:02+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
