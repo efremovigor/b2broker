@@ -13,14 +13,7 @@
 
 
 use Illuminate\Support\Facades\Route;
-use Tasks\Routes;
 
 Route::get('/',function(){
     return view('index');
 });
-
-foreach (Routes::getRoutes() as $method => $list) {
-    foreach ($list as $url => $action) {
-        Route::$method($url, $action);
-    }
-}

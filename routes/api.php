@@ -1,7 +1,5 @@
 <?php
 
-use Tasks\Routes;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -12,9 +10,3 @@ use Tasks\Routes;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
-foreach (Routes::getApiRoutes() as $method => $list) {
-    foreach ($list as $url => $action) {
-        Route::$method($url, $action);
-    }
-}
