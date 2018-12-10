@@ -13,7 +13,7 @@ php artisan migrate:fresh
 php artisan serve
 
 
-## Особенности взаимодействия с b2broker_module_tasks
+## Особенности взаимодействия с [b2broker_module_tasks](https://github.com/efremovigor/b2broker_module_tasks)
 
 config/view.php
 
